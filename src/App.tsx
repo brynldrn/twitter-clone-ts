@@ -1,10 +1,18 @@
 import React from 'react';
+import MenuDrawer from './components/MenuDrawer';
+import Navigation from './components/Navigation';
+import ProfileHeader from './components/ProfileHeader';
+import { GlobalStore } from './context/GlobalStore';
 
 function App() {
   return (
-    <div>
-      <h1 className='text-3xl font-bold'>Test</h1>
-    </div>
+    <GlobalStore>
+      <main className='h-screen transition duration-300 dark:bg-black'>
+        <ProfileHeader />
+        <Navigation />
+        <MenuDrawer />
+      </main>
+    </GlobalStore>
   );
 }
 

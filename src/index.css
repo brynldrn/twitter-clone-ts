@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'TwitterChirp';
+    src: url('./assets/fonts/chirp-regular-web.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'TwitterChirp';
+    src: url('./assets/fonts/chirp-medium-web.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'TwitterChirp';
+    src: url('./assets/fonts/chirp-bold-web.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'TwitterChirp';
+    src: url('./assets/fonts/chirp-heavy-web.woff') format('woff');
+  }
+}
