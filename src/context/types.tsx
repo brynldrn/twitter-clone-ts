@@ -15,3 +15,9 @@ export type ContextType = {
   globalState: GlobalStateInterface;
   dispatch: Dispatch<ActionType>;
 };
+
+export enum TweetType {
+  Plain,
+  WithImage,
+  WithLink
+}

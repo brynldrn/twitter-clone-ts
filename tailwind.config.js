@@ -13,7 +13,7 @@ module.exports = {
       '2xl': '1440px',
     },
     fontFamily: {
-      sans: ['TwitterChirp', 'sans-serif']
+      sans: ['Open Sans', 'sans-serif']
     }
   },
   plugins: [],
